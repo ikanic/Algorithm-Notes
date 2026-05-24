@@ -58,6 +58,7 @@ public struct PGM118669: Solvable {
             // start - end 순으로 pathTime 최적화
             // 경로 만드는 것 고려
             // start - mid - end? mid 넣어야함?
+            // mid 넣으면 현재 방법 안됨
         }
 
         return []
