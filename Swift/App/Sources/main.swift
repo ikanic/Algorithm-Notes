@@ -61,9 +61,9 @@ public struct PGM118669: Solvable {
             // start - mid - end? mid 넣어야함?
             // mid 넣으면 현재 방법 안됨 => 새 방법 고려 필요
             // start - end로 경로 확인하면서 갱신
-            // pathTime의 min 값?
         }
 
+        // pathTime의 min 값?
         return []
     }
 
