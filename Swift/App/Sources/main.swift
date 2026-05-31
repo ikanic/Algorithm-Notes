@@ -56,8 +56,7 @@ public struct PGM118669: Solvable {
             pathTime[now.start][now.end] = min(pathTime[now.start][now.end], now.time)
 
             // start end time -> time 정렬
-            // start - end 순으로 pathTime 최적화
-            // start - mid - end
+            // start - mid - end 순으로 pathTime 최적화
             // mid 넣으면 현재 방법 안됨 => 새 방법 고려 필요
             // start - end로 경로 확인하면서 갱신
         }
