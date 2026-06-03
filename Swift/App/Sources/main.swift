@@ -59,7 +59,6 @@ public struct PGM118669: Solvable {
             // start - mid - end 순으로 pathTime 최적화 경로 갱신
         }
 
-        // pathTime의 min 값?
         return []
     }
 
