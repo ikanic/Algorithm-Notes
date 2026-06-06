@@ -54,6 +54,7 @@ public struct PGM118669: Solvable {
         while !heap.isEmpty {
             let now = heap.pop()!
             pathTime[now.start][now.end] = min(pathTime[now.start][now.end], now.time)
+            // 현재는 start - mid 혹은 mid - end만 넣고 있음
 
             // start end time -> time 정렬
             // start - mid - end 순으로 pathTime 최적화 경로 갱신
