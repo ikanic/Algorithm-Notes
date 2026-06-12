@@ -59,7 +59,7 @@ public struct PGM118669: Solvable {
             // 이전 상태를 기억하고 있다가 갱신?
             // 갱신할 때 전부 갱신하는 건 시간초과 발생
             // start - mid는 그대로 두고 mid - end 위주로 갱신
-            // 이전 mid - end 참고해서 이번 mid - end에도 사용
+            // 갱신시 이전 mid - end 값도 참고해서 이번 mid - end 비교에도 사용
 
             // start end time -> time 정렬
             // start - mid - end 순으로 pathTime 최적화 경로 갱신
