@@ -62,8 +62,6 @@ public struct PGM118669: Solvable {
             // 갱신시 이전 mid - end 값도 참고해서 이번 mid - end 비교에도 사용
 
             // start end time -> time 정렬
-            // start - mid - end 순으로 pathTime 최적화 경로 갱신
-            // heap에서 이런식으로 꺼내는 것이 과연 효과적인 방법인가?
         }
 
         return []
