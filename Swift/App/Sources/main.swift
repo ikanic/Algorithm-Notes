@@ -56,8 +56,6 @@ public struct PGM118669: Solvable {
             pathTime[now.start][now.end] = min(pathTime[now.start][now.end], now.time)
             // 현재는 start - mid 혹은 mid - end만 넣고 있음
             // start-mid-end로 이어서 최적화할 방법 고려필요
-            // 이전 상태를 기억하고 있다가 갱신?
-            // 갱신할 때 전부 갱신하는 건 시간초과 발생
             // start - mid는 그대로 두고 mid - end 위주로 갱신
             // 갱신시 이전 mid - end 값도 참고해서 이번 mid - end 비교에도 사용
 
