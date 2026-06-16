@@ -60,6 +60,7 @@ public struct PGM118669: Solvable {
             // 갱신시 이전 mid - end 값도 참고해서 이번 mid - end 비교에도 사용
 
             // start end time -> time 정렬
+            // 정렬할 수록 비교할 mid-end 쌓이므로 바로 이전만 참조하는 것?
         }
 
         return []
