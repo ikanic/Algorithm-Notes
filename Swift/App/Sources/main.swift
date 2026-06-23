@@ -59,6 +59,7 @@ public struct PGM118669: Solvable {
             // start end time -> time 정렬
             // start를 mid로 보거나 end를 mid로 보는 경우 생기기도 함
             // 정렬할 수록 비교할 mid-end 쌓이므로 바로 이전만 참조
+            // 마지막에 참고하는건 그 전까지 쌓인 start-mid, mid-end를 기반으로한 mid-end
         }
 
         return []
