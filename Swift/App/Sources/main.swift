@@ -58,7 +58,7 @@ public struct PGM118669: Solvable {
             // start를 mid로 보거나 end를 mid로 보는 경우 생기기도 함
             // 정렬할 수록 비교할 mid-end 쌓이므로 바로 이전만 참조
             // 마지막에 참고하는건 그 전까지 쌓인 start-mid, mid-end를 기반으로한 mid-end
-            // 가장 긴 time 중 가장 짧은 time
+            // 가장 긴 time 중 가장 짧은 time => 전체는 가장 긴 time으로 그 중에서 가장 짧은 time으로
         }
 
         return []
