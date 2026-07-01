@@ -60,6 +60,7 @@ public struct PGM118669: Solvable {
             // 가장 긴 time 중 가장 짧은 time => 전체는 가장 긴 time으로, 최종 결과는 그 중에서 가장 짧은 time으로
             // heap 사용이 효율적인지 고려할 필요
             // heap에 넣으면 최소 경로 뽑기 쉬워지나, 기본적으로 가장 긴 time을 먼저 가져가야함
+            // 가장 긴 time 뽑기엔 heap 하나로 어려움
         }
 
         return []
