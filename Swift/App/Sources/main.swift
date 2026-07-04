@@ -62,7 +62,7 @@ public struct PGM118669: Solvable {
             // heap에 넣으면 최소 경로 뽑기 쉬워지나, 기본적으로 가장 긴 time을 먼저 가져가야함
             // 가장 긴 time 뽑기엔 heap 하나로 어려움
             // 첫 heap에 가장 긴 time, 그 다음 heap에 그 중 가장 짧은 것 저장?
-            // heap 2개 사용은 과함
+            // heap 2개 사용은 과하게 느껴짐. 1개를 잘 활용할 방법은?
         }
 
         return []
