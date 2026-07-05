@@ -63,6 +63,7 @@ public struct PGM118669: Solvable {
             // 가장 긴 time 뽑기엔 heap 하나로 어려움
             // 첫 heap에 가장 긴 time, 그 다음 heap에 그 중 가장 짧은 것 저장?
             // heap 2개 사용은 과하게 느껴짐. 1개를 잘 활용할 방법은?
+            // 배열에 저장해 두고 사용?
         }
 
         return []
