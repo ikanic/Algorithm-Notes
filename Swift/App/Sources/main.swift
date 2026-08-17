@@ -62,6 +62,7 @@ public struct PGM118669: Solvable {
             // String 사용시 바로 답으로 사용 가능, Int 사용시 조합 쉬움
             // heap 내부에 누적, 가장 큰 값만 꺼내서 사용
             // 가장 큰 값만 꺼내기 때문에 가장 긴 time 보장
+            // 다음 값들은 그 안에서 합쳐진다?
         }
 
         return []
