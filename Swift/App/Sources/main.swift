@@ -56,7 +56,7 @@ public struct PGM118669: Solvable {
             pathTime[now.start][now.end] = min(pathTime[now.start][now.end], now.time)
             // 봉우리 이후 반복
             // 입구 여러개 안됨
-            // 가장 긴 time 중 가장 짧은 time => 전체는 가장 긴 time으로, 최종 결과는 그 중에서 가장 짧은 time으로
+            // 가장 긴 time 중 가장 짧은 time
             // 2차원 배열 재활용 => 원래 사용하던 걸 1차로 임시 저장, 2차로 최종 결과 저장용으로 => 마지막엔 최소만 있으면 되므로 추가 배열 없이 변수 하나 갱신해서 최장 중 최소 추적 => 최소 자체를 저장 및 경로 저장 => 찾는 것이 전체 경로가 아님
         }
 
