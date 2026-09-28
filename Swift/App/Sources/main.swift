@@ -54,8 +54,6 @@ public struct PGM118669: Solvable {
         while !heap.isEmpty {
             let now = heap.pop()!
             pathTime[now.start][now.end] = min(pathTime[now.start][now.end], now.time)
-            // 봉우리 이후 반복
-            // 입구 여러개 안됨
             // 가장 긴 time 중 가장 짧은 time
         }
 
