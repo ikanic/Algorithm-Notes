@@ -51,12 +51,6 @@ public struct PGM118669: Solvable {
             else if start[path[1]] { heap.push(Point(start: path[1], end: path[0], time: path[2])) }
         }
 
-        while !heap.isEmpty {
-            let now = heap.pop()!
-            pathTime[now.start][now.end] = min(pathTime[now.start][now.end], now.time)
-            // 가장 긴 time 중 가장 짧은 time
-        }
-
         return []
     }
 
