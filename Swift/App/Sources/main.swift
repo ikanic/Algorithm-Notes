@@ -33,23 +33,6 @@ public struct PGM118669: Solvable {
     }
 
     func solution(_ n: Int, _ paths: [[Int]], _ gates: [Int], _ summits: [Int]) -> [Int] {
-        var times = Array(repeating: [(Int, Int)](), count: n+1)
-        var start = Array(repeating: false, count: n+1)
-        var end = Array(repeating: false, count: n+1)
-        var heap = Heap<Point>(compare: <)
-        var idx = 0
-        var pathTime = Array(repeating: Array(repeating: 2000000000001, count: n+1), count: n+1)
-
-        for path in paths {
-            times[path[0]].append((path[1], path[2]))
-            times[path[1]].append((path[0], path[2]))
-            pathTime[path[0]][path[1]] = path[2]
-            pathTime[path[1]][path[0]] = path[2]
-
-            if start[path[0]] && start[path[1]] { continue }
-            else if start[path[0]] { heap.push(Point(start: path[0], end: path[1], time: path[2])) }
-            else if start[path[1]] { heap.push(Point(start: path[1], end: path[0], time: path[2])) }
-        }
 
         return []
     }
