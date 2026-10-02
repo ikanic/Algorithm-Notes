@@ -33,6 +33,7 @@ public struct PGM118669: Solvable {
     }
 
     func solution(_ n: Int, _ paths: [[Int]], _ gates: [Int], _ summits: [Int]) -> [Int] {
+        // 문제 다시 파악
         return []
     }
 
