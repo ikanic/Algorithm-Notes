@@ -34,6 +34,7 @@ public struct PGM118669: Solvable {
 
     func solution(_ n: Int, _ paths: [[Int]], _ gates: [Int], _ summits: [Int]) -> [Int] {
         // 문제 다시 파악
+        // n개의 path에서 gate는 반드시 하나만 나오고, path는 gate 기준 데칼코마니 되는 가장 긴 경로 찾기
         return []
     }
 
